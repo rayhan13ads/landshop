@@ -78,8 +78,12 @@ WSGI_APPLICATION = 'landshop_project.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+       'ENGINE': 'django.db.backends.mysql', 
+        'NAME': 'landshopDB',
+        'USER': 'root',
+        'PASSWORD': '9016803',
+        'HOST': 'localhost',   # Or an IP Address that your DB is hosted on
+        'PORT': '3306',
     }
 }
 
