@@ -1,4 +1,4 @@
-[[source]]
+p[[source]]
 name = "pypi"
 url = "https://pypi.org/simple"
 verify_ssl = true
@@ -8,6 +8,8 @@ verify_ssl = true
 [packages]
 django = "*"
 pillow = "*"
+psycopg2-binary = "*"
+mysqlclient = "*"
 
 [requires]
 python_version = "3.5"
